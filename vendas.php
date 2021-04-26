@@ -4,7 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/vendas.css">
     <link rel="stylesheet" href="./estilos/sistema.css">
+    <link rel="stylesheet" href="./estilos/home.css">
+    
     <title>SISTEMA EMPRESARIAL</title>
 </head>
 <body>
@@ -33,6 +36,38 @@
 
         <p>HELTON BRITO</p>
     </header>
+
+    <div class="classe-home">
+        <div class="container-home">
+            <h1> VENDAS</h1>
+            
+            <form action="">
+                <label for="nome">Cliente</label>
+             
+                    <select>
+                        <option>Produtos</option>
+                        <option>Produtos2</option>
+                    </select>
+
+                <label for="Telefone">Telefone</label>
+
+                    <select>
+                        <option>Produtos</option>
+                        <option>Produtos2</option>
+                    </select>
+
+                <label for="Produtos">Produtos</label>
+                <select>
+                    <option>Produtos</option>
+                    <option>Produtos2</option>
+                </select>
+                
+                <label for="nome">Quantidade</label>
+                <input type="number" id="numero" name="numero" placeholder="0">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
   
 </body>
 </html>

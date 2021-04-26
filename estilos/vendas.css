@@ -1,0 +1,5 @@
+form{display: flex;flex-direction: column;}
+input{padding: 8px 5px;margin: 2px 0px 15px;}
+select{padding: 8px 5px;margin: 2px 0px 15px;}
+input[type=submit]{background-color: rgb(27, 8, 189);color:#fff;padding: 12px 0px;border:none}
+input[type=submit]:hover{background-color: rgb(15, 6, 102);}
